@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h1 {
+    color: #333;
+    text-align: center;
+    padding-top: 50px;
+    font-weight: 900;
+    font-size: 3em;
+  }
+  
+  #searchBar {
+    margin: 20px 0;
+  }
+  
+  #searchInput {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 5px;
+  }
+  
+  #searchButton, #buyButton {
+    padding: 8px 15px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  #buyButton{
+    margin-bottom: 40px;
+  }
+  
+  #searchButton:hover, #buyButton:hover {
+    background-color: #2980b9;
+  }
+  
+  #instruments {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  #instruments div {
+    border: 1px solid rgb(163, 187, 223);
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+    width: 200px;
+  }
+
+  #instruments div:hover {
+    border: 1.5px solid rgb(71, 93, 126); 
+  }
+  
+  #instruments img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  #cart {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  #cart li {
+    margin: 5px 0;
+  }
+
+  #instruments button {
+    padding: 8px 15px;
+    background-color: #27ae60; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #instruments button:hover {
+    background-color: #219f56; 
+  }
+
+  h2 {
+    font-size: 1em;
+    text-transform: uppercase;
+  }
+  

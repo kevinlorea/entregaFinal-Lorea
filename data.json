@@ -1,0 +1,32 @@
+[
+    {
+      "id": 1,
+      "name": "Guitarra",
+      "price": 300,
+      "image": "assets/guitarra.webp"
+    },
+    {
+      "id": 2,
+      "name": "Teclado",
+      "price": 800,
+      "image": "assets/teclado.webp"
+    },
+    {
+      "id": 3,
+      "name": "Bajo",
+      "price": 600,
+      "image": "assets/bajo.webp"
+    },
+    {
+      "id": 4,
+      "name": "Saxo",
+      "price": 800,
+      "image": "assets/saxo.webp"
+    },
+    {
+      "id": 5,
+      "name": "Bateria",
+      "price": 900,
+      "image": "assets/bateria.webp"
+    }
+  ]
